@@ -1,4 +1,4 @@
-const serieController = require('controllers/serieController');
+const serieController = require('../controllers/serieController');
 const Joi = require('joi');
 
 // Definierar routes för serier och validering med Joi.

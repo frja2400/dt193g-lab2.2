@@ -1,4 +1,4 @@
-const Serie = require('models/Serie');
+const Serie = require('../models/Serie');
 
 // Hämta alla serier
 exports.getAllSeries = async (request, h) => {
