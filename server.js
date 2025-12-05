@@ -29,8 +29,8 @@ const init = async () => {
         path: '/',
         handler: (request, h) => {
             return h.response(`
-                <h1>Välkommen till Serie-API:et!</h1>
-                <p>Se README.md för information om endpoints och hur du använder dem.</p>
+                <h1>Välkommen till mitt Serie-API!</h1>
+                <p>Se README.md för information om webbtjänsten, endpoints och instruktioner om installation.</p>
             `).type('text/html');
         }
     });

@@ -4,7 +4,7 @@ Detta repository innehåller kod för ett REST API byggt med Node.js, Hapi och M
 
 ## Länk
 
-En liveversion av API:t finns tillgänglig på följande URL: XXXXX
+En liveversion av API:t finns tillgänglig på följande URL: https://dt193g-lab2-2.onrender.com/
 
 ## Installation, databas
 
