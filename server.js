@@ -9,7 +9,12 @@ const init = async () => {
 
     const server = Hapi.server({
         port: process.env.PORT,
-        host: '0.0.0.0'
+        host: '0.0.0.0',
+        routes: {
+            cors: {
+                origin: ['*'] // Tillåt anrop från Netlify
+            }
+        }
     });
 
     // Anslut till MongoDB
